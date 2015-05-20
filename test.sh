@@ -6,6 +6,8 @@ sleep 5
 touch Red.txt
 git status
 sleep 10
+git add -p
+sleep 5
 git add -A
 sleep 5
 git commit -a -m "Addition of files"
