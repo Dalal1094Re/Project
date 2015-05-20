@@ -5,11 +5,10 @@ git init
 sleep 5
 git status
 sleep 5
-git add -p
-sleep 5
 git add -A
 sleep 5
 git commit -a -m "Updation"
+@echo off
 echo "Commit successfull"
 sleep 10
 git config remote.origin.url https://Dalal1094Re:manvikaran31094@github.com/Dalal1094Re/Project.git
